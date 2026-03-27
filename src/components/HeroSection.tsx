@@ -56,7 +56,9 @@ const HeroSection = () => {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#waitlist"
+            href="https://tally.so/r/NpL8Op"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-all glow-green"
           >
             Join Early Access Waitlist <ArrowRight size={18} />
