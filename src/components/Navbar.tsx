@@ -22,7 +22,9 @@ const Navbar = () => {
         </div>
 
         <a
-          href="#waitlist"
+          href="https://tally.so/r/NpL8Op"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
         >
           Join Waitlist
