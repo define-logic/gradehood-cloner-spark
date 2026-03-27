@@ -40,7 +40,7 @@ const Navbar = () => {
           <a href="#program" className="block text-muted-foreground hover:text-foreground" onClick={() => setMobileOpen(false)}>Program</a>
           <a href="#who-is-it-for" className="block text-muted-foreground hover:text-foreground" onClick={() => setMobileOpen(false)}>Who Is It For</a>
           <a href="#faq" className="block text-muted-foreground hover:text-foreground" onClick={() => setMobileOpen(false)}>FAQ</a>
-          <a href="#waitlist" className="block px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium text-center" onClick={() => setMobileOpen(false)}>Join Waitlist</a>
+          <a href="https://tally.so/r/NpL8Op" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium text-center" onClick={() => setMobileOpen(false)}>Join Waitlist</a>
         </div>
       )}
     </nav>
