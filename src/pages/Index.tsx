@@ -1,14 +1,15 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import ProblemSection from "@/components/ProblemSection";
-import OpportunitySection from "@/components/OpportunitySection";
-import ProgramSection from "@/components/ProgramSection";
+import BonusStripSection from "@/components/BonusStripSection";
+import TrustRow from "@/components/TrustRow";
+import IncomeCardsSection from "@/components/IncomeCardsSection";
+import WhatYouLearnSection from "@/components/WhatYouLearnSection";
 import WhoIsItForSection from "@/components/WhoIsItForSection";
-import WeeklyPlanSection from "@/components/WeeklyPlanSection";
-import ComparisonSection from "@/components/ComparisonSection";
 import OutcomesSection from "@/components/OutcomesSection";
-import FoundingCohortSection from "@/components/FoundingCohortSection";
-import WaitlistSection from "@/components/WaitlistSection";
+import HowItWorksSection from "@/components/HowItWorksSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import SoftTransitionSection from "@/components/SoftTransitionSection";
+import FinalCTASection from "@/components/FinalCTASection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
@@ -17,15 +18,16 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <HeroSection />
-      <ProblemSection />
-      <OpportunitySection />
-      <ProgramSection />
+      <BonusStripSection />
+      <TrustRow />
+      <IncomeCardsSection />
+      <WhatYouLearnSection />
       <WhoIsItForSection />
-      <WeeklyPlanSection />
-      <ComparisonSection />
       <OutcomesSection />
-      <FoundingCohortSection />
-      <WaitlistSection />
+      <HowItWorksSection />
+      <TestimonialsSection />
+      <SoftTransitionSection />
+      <FinalCTASection />
       <FAQSection />
       <Footer />
     </div>
