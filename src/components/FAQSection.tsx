@@ -7,24 +7,24 @@ import {
 
 const faqs = [
   {
-    q: "Do I need technical skills?",
-    a: "No. This program is designed for complete beginners. If you can type and browse the internet, you have all the technical skills you need to get started.",
+    q: "Is this workshop really free?",
+    a: "Yes, 100% free. No hidden charges, no credit card required. Just register and show up.",
   },
   {
-    q: "Will I definitely earn money after the program?",
-    a: "We cannot guarantee income as it depends on individual effort and execution. However, the program gives you real, marketable skills and access to project opportunities.",
+    q: "Do I need any technical skills?",
+    a: "Not at all. This workshop is designed for complete beginners. If you can browse the internet, you can follow along.",
   },
   {
-    q: "How much time is required?",
-    a: "Plan for about 5–8 hours per week over the 4-week program. This includes live sessions, practice work, and building your portfolio samples.",
+    q: "Will this be recorded?",
+    a: "The live session offers interactive Q&A which you'll miss in a recording. We highly recommend attending live for the best experience.",
   },
   {
-    q: "Is the program online?",
-    a: "Yes, 100% online with live sessions. You can join from anywhere with an internet connection.",
+    q: "What is the AI Income Starter Kit?",
+    a: "It's a free bonus you get when you register — includes 5 India-focused AI income ideas, recommended tools, and a step-by-step beginner roadmap.",
   },
   {
-    q: "When does the founding cohort start?",
-    a: "We are currently accepting applications for the founding cohort. Join the waitlist to be notified as soon as dates are confirmed.",
+    q: "How long is the workshop?",
+    a: "The live session runs approximately 60–90 minutes including Q&A time.",
   },
 ];
 

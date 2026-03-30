@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="w-6 h-6 rounded bg-primary flex items-center justify-center text-primary-foreground text-xs font-bold">
             G
           </div>
-          <span>Gradehood AI Income Accelerator</span>
+          <span>Gradehood</span>
         </div>
         <p>© {new Date().getFullYear()} Gradehood. All rights reserved.</p>
       </div>
