@@ -21,12 +21,13 @@ const FinalCTASection = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-10 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-lg hover:bg-primary/90 transition-all"
           >
-            Join Free Workshop <ArrowRight size={20} />
+            Claim Your Seat & Learn AI Automation <ArrowRight size={20} />
           </a>
 
           <p className="text-xs text-muted-foreground mt-4">
             100% Free · No spam · Unsubscribe anytime
           </p>
+          <p className="text-xs text-primary/70 mt-1 font-medium">Next session filling fast</p>
         </div>
       </div>
     </section>

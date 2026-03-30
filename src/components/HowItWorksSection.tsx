@@ -11,13 +11,13 @@ const steps = [
     num: "02",
     icon: Video,
     title: "Attend Live Workshop",
-    desc: "Join the live session — ask questions in real time.",
+    desc: "Join the practical session — build workflows in real time.",
   },
   {
     num: "03",
     icon: MapPin,
-    title: "Get Roadmap + Next Steps",
-    desc: "Walk away with a clear action plan and free starter kit.",
+    title: "Get Your Execution Roadmap",
+    desc: "Walk away with a clear plan, tools, and your free starter kit.",
   },
 ];
 
@@ -31,7 +31,6 @@ const HowItWorksSection = () => {
         </h2>
 
         <div className="grid sm:grid-cols-3 gap-6 relative">
-          {/* Connecting line (desktop) */}
           <div className="hidden sm:block absolute top-[3.5rem] left-[16.7%] right-[16.7%] h-px bg-border" />
 
           {steps.map((step) => (

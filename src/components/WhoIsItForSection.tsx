@@ -1,10 +1,10 @@
 import { GraduationCap, Briefcase, Sparkles, UserCheck } from "lucide-react";
 
 const audiences = [
-  { icon: GraduationCap, label: "Students", desc: "Build a skill that earns while you learn" },
-  { icon: Briefcase, label: "Freelancers", desc: "Add AI services to grow your income" },
-  { icon: Sparkles, label: "Beginners", desc: "No experience needed — start from zero" },
-  { icon: UserCheck, label: "Working Professionals", desc: "Explore AI as a side income stream" },
+  { icon: GraduationCap, label: "Students", desc: "Build automation skills that pay while you learn" },
+  { icon: Briefcase, label: "Freelancers", desc: "Add AI automation services to your offerings" },
+  { icon: Sparkles, label: "Beginners", desc: "No experience needed — start building from zero" },
+  { icon: UserCheck, label: "Working Professionals", desc: "Explore automation as a freelancing side income" },
 ];
 
 const WhoIsItForSection = () => {
@@ -16,7 +16,7 @@ const WhoIsItForSection = () => {
           Who This Workshop Is For
         </h2>
         <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Whether you're a student or professional — if you want to learn how AI can generate income, this is for you.
+          Whether you're a student or professional — if you want to build real automation workflows and explore freelancing use-cases, this is for you.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

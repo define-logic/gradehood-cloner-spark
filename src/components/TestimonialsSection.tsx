@@ -2,22 +2,22 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    text: "This helped me understand how to start with AI — I had no idea there were so many practical ways to earn.",
+    text: "This session showed me exactly how to build automation workflows — I started freelancing the same week.",
     name: "Priya S.",
     role: "College Student",
   },
   {
-    text: "Very practical and beginner-friendly. I felt confident about taking my first steps after the session.",
+    text: "Very practical and execution-focused. No fluff, just real use-cases I could start building immediately.",
     name: "Rahul M.",
     role: "Freelancer",
   },
   {
-    text: "Clear roadmap, no confusion. Unlike other webinars, this one actually gave actionable steps.",
+    text: "Clear roadmap with real automation examples. Finally understood how to turn AI skills into freelancing income.",
     name: "Ananya K.",
     role: "Working Professional",
   },
   {
-    text: "I was skeptical, but the tools and ideas shared were genuinely useful. Highly recommend for anyone starting out.",
+    text: "The workflow demos were eye-opening. I had no idea you could build automation systems this easily without coding.",
     name: "Vikram D.",
     role: "Recent Graduate",
   },

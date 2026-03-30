@@ -1,25 +1,25 @@
-import { Lightbulb, Layers, Wrench, Map } from "lucide-react";
+import { Zap, Layers, Briefcase, Play } from "lucide-react";
 
 const items = [
   {
-    icon: Lightbulb,
-    title: "How People Earn Using AI Today",
-    desc: "Real examples and income streams — not theory or hype.",
+    icon: Zap,
+    title: "Automate Repetitive Tasks with AI",
+    desc: "Learn how to use AI tools to eliminate boring, time-consuming work instantly.",
   },
   {
     icon: Layers,
-    title: "3 Beginner-Friendly Income Methods",
-    desc: "Practical approaches anyone can start with zero experience.",
+    title: "Build Simple Automation Workflows",
+    desc: "Step-by-step walkthrough of building real workflows you can use right away.",
   },
   {
-    icon: Wrench,
-    title: "Tools You Can Start Immediately",
-    desc: "Hands-on walkthrough of free AI tools you'll use right away.",
+    icon: Briefcase,
+    title: "Freelancing & Side Income Use-Cases",
+    desc: "See how these workflows translate into real freelancing opportunities and side income.",
   },
   {
-    icon: Map,
-    title: "Step-by-Step Roadmap",
-    desc: "A clear path from today to your first AI-powered income.",
+    icon: Play,
+    title: "Real Examples of AI Automation in Action",
+    desc: "Live demos of automation systems working — not slides, not theory.",
   },
 ];
 
@@ -27,12 +27,12 @@ const WhatYouLearnSection = () => {
   return (
     <section id="workshop" className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <p className="text-primary text-sm font-medium text-center mb-3">Workshop Content</p>
+        <p className="text-primary text-sm font-medium text-center mb-3">Session Breakdown</p>
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-          What You'll Learn
+          What You'll Learn in This Session
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          In this live session, we cover everything you need to start your AI income journey.
+          A hands-on, practical session focused on building real automation workflows — not generic AI theory.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6">

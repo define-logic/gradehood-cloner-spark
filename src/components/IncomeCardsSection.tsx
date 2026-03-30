@@ -6,21 +6,21 @@ const cards = [
     role: "Freelancer",
     income: "₹65,000",
     period: "/month",
-    desc: "Offering AI-powered services to businesses",
+    desc: "Offering AI automation services to businesses",
   },
   {
     icon: GraduationCap,
     role: "Student",
     income: "₹32,000",
     period: "/month",
-    desc: "Part-time AI work alongside studies",
+    desc: "Building automation workflows as a side gig",
   },
   {
     icon: TrendingUp,
     role: "Side Hustler",
     income: "₹1.2L",
     period: "/month",
-    desc: "Building an AI services side business",
+    desc: "Running an AI automation services business",
   },
 ];
 
@@ -28,12 +28,12 @@ const IncomeCardsSection = () => {
   return (
     <section className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <p className="text-primary text-sm font-medium text-center mb-3">Income Potential</p>
+        <p className="text-primary text-sm font-medium text-center mb-3">Real-World Numbers</p>
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-          What AI Earners Are Making
+          What AI Automation Freelancers Are Earning
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          Real income ranges from people using AI skills in India today.
+          Real income ranges from people building automation workflows in India today.
         </p>
 
         <div className="grid sm:grid-cols-3 gap-6">
