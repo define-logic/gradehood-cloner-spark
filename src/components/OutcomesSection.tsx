@@ -3,18 +3,18 @@ import { Eye, Compass, Rocket } from "lucide-react";
 const outcomes = [
   {
     icon: Eye,
-    title: "Understand AI Income Opportunities",
-    desc: "See exactly how people are earning with AI right now in India.",
+    title: "Understand AI Automation Opportunities",
+    desc: "See exactly how people are building workflows and earning through freelancing right now.",
   },
   {
     icon: Compass,
-    title: "Choose Your Starting Path",
-    desc: "Know which AI income method is right for your skills and situation.",
+    title: "Choose Your First Automation Use-Case",
+    desc: "Know which workflow to build first based on your skills and situation.",
   },
   {
     icon: Rocket,
-    title: "Take Your First Step Confidently",
-    desc: "Leave with a clear action plan — not confusion or overwhelm.",
+    title: "Start Building Immediately",
+    desc: "Leave with a clear execution plan and tools to build your first workflow today.",
   },
 ];
 
@@ -22,12 +22,12 @@ const OutcomesSection = () => {
   return (
     <section className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <p className="text-primary text-sm font-medium text-center mb-3">After The Workshop</p>
+        <p className="text-primary text-sm font-medium text-center mb-3">After The Session</p>
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
           What You'll Be Able to Do After This Session
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          Walk away with clarity, confidence, and a real plan of action.
+          Walk away with real-use case execution clarity — not vague motivation.
         </p>
 
         <div className="grid sm:grid-cols-3 gap-6">

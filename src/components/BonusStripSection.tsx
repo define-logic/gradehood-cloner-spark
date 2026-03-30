@@ -1,7 +1,7 @@
 import { Gift, CheckCircle2 } from "lucide-react";
 
 const bonusItems = [
-  "5 AI income ideas (India-focused)",
+  "5 AI automation & income ideas (India-focused)",
   "Tools you can start using immediately",
   "Step-by-step beginner roadmap",
 ];
@@ -25,7 +25,7 @@ const BonusStripSection = () => {
                 🎁 Free Bonus: AI Income Starter Kit
               </h3>
               <p className="text-sm text-muted-foreground">
-                Register now and get instant access to our starter kit — yours to keep forever.
+                Delivered instantly after registration — yours to keep forever.
               </p>
               <div className="grid sm:grid-cols-3 gap-2">
                 {bonusItems.map((item) => (

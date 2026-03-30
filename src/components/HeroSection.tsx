@@ -12,20 +12,25 @@ const HeroSection = () => {
         {/* Top Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-sm text-primary font-medium">
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
-          AI → Skills → Income
+          AI → Automation → Income
         </div>
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight">
-          Free AI Income Workshop:{" "}
+          Free AI Automation Workshop:{" "}
           <span className="text-gradient-hero">
-            Learn How to Start Earning with AI
+            Learn How to Build Real Workflows & Start Earning
           </span>
         </h1>
 
         {/* Subheadline */}
         <p className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-          Discover real ways to earn using AI tools — even if you're starting from zero.
+          Discover how to use AI tools to automate tasks, build simple workflows, and explore freelancing opportunities — without coding or long courses.
+        </p>
+
+        {/* Clarity line */}
+        <p className="text-sm text-primary/80 font-medium">
+          This is a live practical session — not a full course.
         </p>
 
         {/* Date & Time Strip */}
@@ -40,7 +45,7 @@ const HeroSection = () => {
           </div>
           <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-primary/30 bg-primary/5 text-sm">
             <Users size={16} className="text-primary" />
-            <span className="text-primary font-medium">Limited seats for live session</span>
+            <span className="text-primary font-medium">Limited seats for live interaction</span>
           </div>
         </div>
 
@@ -52,9 +57,10 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-10 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-lg hover:bg-primary/90 transition-all glow-green"
           >
-            Reserve Your Free Seat <ArrowRight size={20} />
+            Reserve Your Spot & Start Building AI Workflows <ArrowRight size={20} />
           </a>
           <p className="text-xs text-muted-foreground mt-3">100% Free · No credit card · No commitment</p>
+          <p className="text-xs text-primary/70 mt-1 font-medium">Next session filling fast</p>
         </div>
       </div>
     </section>
