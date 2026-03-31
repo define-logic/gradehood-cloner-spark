@@ -1,5 +1,4 @@
 import { ArrowRight, CalendarDays, Clock, Users } from "lucide-react";
-import heroWorkflow from "@/assets/hero-workflow.jpg";
 
 const REGISTER_URL = "https://tally.so/r/NpL8Op";
 
@@ -62,22 +61,6 @@ const HeroSection = () => {
           </a>
           <p className="text-xs text-muted-foreground mt-3">100% Free · No credit card · No commitment</p>
           <p className="text-xs text-primary/70 mt-1 font-medium">Next session filling fast</p>
-        </div>
-
-        {/* Hero Workflow Image */}
-        <div className="mt-12 relative">
-          <div className="rounded-2xl overflow-hidden border border-border/50 shadow-2xl shadow-primary/5">
-            <img
-              src={heroWorkflow}
-              alt="AI Workflow Automation Dashboard"
-              width={1280}
-              height={720}
-              className="w-full h-auto"
-            />
-          </div>
-          <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full bg-surface-elevated border border-border text-xs text-muted-foreground">
-            Real workflow you'll learn to build in the session
-          </div>
         </div>
       </div>
     </section>
