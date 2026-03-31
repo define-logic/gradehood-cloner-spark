@@ -12,25 +12,25 @@ const HeroSection = () => {
         {/* Top Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5 text-sm text-primary font-medium">
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
-          AI → Automation → Income
+          AI → Freelancing → Income
         </div>
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight">
-          Free AI Automation Workshop:{" "}
+          Free Live Workshop:{" "}
           <span className="text-gradient-hero">
-            Learn How to Build Real Workflows & Start Earning
+            How to Earn Through Freelancing Using AI
           </span>
         </h1>
 
         {/* Subheadline */}
         <p className="text-muted-foreground text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-          Discover how to use AI tools to automate tasks, build simple workflows, and explore freelancing opportunities — without coding or long courses.
+          Learn how businesses are using AI for automation, data analysis, content creation, and other processes — and how you can offer these services as a freelancer.
         </p>
 
         {/* Clarity line */}
         <p className="text-sm text-primary/80 font-medium">
-          This is a live practical session — not a full course.
+          A practical, income-focused live session — not a generic AI webinar.
         </p>
 
         {/* Date & Time Strip */}
@@ -57,7 +57,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-10 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-lg hover:bg-primary/90 transition-all glow-green"
           >
-            Reserve Your Spot & Start Building AI Workflows <ArrowRight size={20} />
+            Reserve My Seat <ArrowRight size={20} />
           </a>
           <p className="text-xs text-muted-foreground mt-3">100% Free · No credit card · No commitment</p>
           <p className="text-xs text-primary/70 mt-1 font-medium">Next session filling fast</p>

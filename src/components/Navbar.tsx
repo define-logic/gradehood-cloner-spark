@@ -28,7 +28,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="hidden md:inline-flex px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
         >
-          Reserve Your Spot
+          Reserve My Seat
         </a>
 
         <button className="md:hidden text-foreground" onClick={() => setMobileOpen(!mobileOpen)}>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <a href="#workshop" className="block text-muted-foreground hover:text-foreground" onClick={() => setMobileOpen(false)}>Workshop</a>
           <a href="#who-is-it-for" className="block text-muted-foreground hover:text-foreground" onClick={() => setMobileOpen(false)}>Who It's For</a>
           <a href="#faq" className="block text-muted-foreground hover:text-foreground" onClick={() => setMobileOpen(false)}>FAQ</a>
-          <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer" className="block px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium text-center" onClick={() => setMobileOpen(false)}>Reserve Your Spot</a>
+          <a href={REGISTER_URL} target="_blank" rel="noopener noreferrer" className="block px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium text-center" onClick={() => setMobileOpen(false)}>Reserve My Seat</a>
         </div>
       )}
     </nav>

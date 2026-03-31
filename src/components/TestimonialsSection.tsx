@@ -2,22 +2,22 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    text: "This session showed me exactly how to build automation workflows — I started freelancing the same week.",
+    text: "This workshop gave me a clear picture of how I can use AI to offer freelance services. Very practical.",
     name: "Priya S.",
     role: "College Student",
   },
   {
-    text: "Very practical and execution-focused. No fluff, just real use-cases I could start building immediately.",
+    text: "I already freelance, but this session showed me how to use AI tools to deliver work faster and charge more.",
     name: "Rahul M.",
     role: "Freelancer",
   },
   {
-    text: "Clear roadmap with real automation examples. Finally understood how to turn AI skills into freelancing income.",
+    text: "No fluff — just real examples of how businesses use AI and how I can offer those services. Exactly what I needed.",
     name: "Ananya K.",
     role: "Working Professional",
   },
   {
-    text: "The workflow demos were eye-opening. I had no idea you could build automation systems this easily without coding.",
+    text: "I had no idea there were so many freelancing opportunities around AI. This workshop opened my eyes.",
     name: "Vikram D.",
     role: "Recent Graduate",
   },

@@ -1,7 +1,7 @@
 import { Gift, CheckCircle2 } from "lucide-react";
 
 const bonusItems = [
-  "5 AI automation & income ideas (India-focused)",
+  "5 AI freelancing ideas (India-focused)",
   "Tools you can start using immediately",
   "Step-by-step beginner roadmap",
 ];
@@ -22,7 +22,7 @@ const BonusStripSection = () => {
             </div>
             <div className="space-y-3">
               <h3 className="text-lg sm:text-xl font-bold text-foreground">
-                🎁 Free Bonus: AI Income Starter Kit
+                🎁 Free Bonus: AI Freelancing Starter Kit
               </h3>
               <p className="text-sm text-muted-foreground">
                 Delivered instantly after registration — yours to keep forever.

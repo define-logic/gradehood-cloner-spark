@@ -10,14 +10,14 @@ const steps = [
   {
     num: "02",
     icon: Video,
-    title: "Attend Live Workshop",
-    desc: "Join the practical session — build workflows in real time.",
+    title: "Attend the Live Workshop",
+    desc: "Join the practical session and learn how AI creates freelancing opportunities.",
   },
   {
     num: "03",
     icon: MapPin,
-    title: "Get Your Execution Roadmap",
-    desc: "Walk away with a clear plan, tools, and your free starter kit.",
+    title: "Start Taking Action",
+    desc: "Walk away with clarity, tools, and a roadmap to start offering AI services.",
   },
 ];
 
