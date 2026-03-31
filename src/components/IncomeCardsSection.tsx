@@ -1,26 +1,30 @@
-import { Briefcase, GraduationCap, TrendingUp } from "lucide-react";
+import { PenTool, Workflow, BarChart3, Search, Users } from "lucide-react";
 
-const cards = [
+const opportunities = [
   {
-    icon: Briefcase,
-    role: "Freelancer",
-    income: "₹65,000",
-    period: "/month",
-    desc: "Offering AI automation services to businesses",
+    icon: PenTool,
+    title: "AI-Powered Content Creation",
+    desc: "Businesses need help creating blog posts, social media content, ad copy, and more using AI tools.",
   },
   {
-    icon: GraduationCap,
-    role: "Student",
-    income: "₹32,000",
-    period: "/month",
-    desc: "Building automation workflows as a side gig",
+    icon: Workflow,
+    title: "Basic Workflow Automation",
+    desc: "Companies pay freelancers to set up simple automations that save hours of repetitive work.",
   },
   {
-    icon: TrendingUp,
-    role: "Side Hustler",
-    income: "₹1.2L",
-    period: "/month",
-    desc: "Running an AI automation services business",
+    icon: BarChart3,
+    title: "Data Analysis & Reporting",
+    desc: "Use AI to analyze business data, generate insights, and create professional reports.",
+  },
+  {
+    icon: Search,
+    title: "AI Research & Information Synthesis",
+    desc: "Help businesses with market research, competitor analysis, and information gathering using AI.",
+  },
+  {
+    icon: Users,
+    title: "Productivity Systems for Teams",
+    desc: "Set up AI-powered productivity tools and workflows that help teams work more efficiently.",
   },
 ];
 
@@ -28,29 +32,25 @@ const IncomeCardsSection = () => {
   return (
     <section className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <p className="text-primary text-sm font-medium text-center mb-3">Real-World Numbers</p>
+        <p className="text-primary text-sm font-medium text-center mb-3">Real Demand</p>
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-          What AI Automation Freelancers Are Earning
+          Real Freelance Opportunities with AI
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          Real income ranges from people building automation workflows in India today.
+          Businesses already need help with these services. Freelancers who understand AI tools can provide real value and earn consistently.
         </p>
 
-        <div className="grid sm:grid-cols-3 gap-6">
-          {cards.map((card) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {opportunities.map((item) => (
             <div
-              key={card.role}
-              className="p-6 rounded-2xl bg-surface-elevated border border-border hover:border-primary/30 transition-colors text-center"
+              key={item.title}
+              className="p-6 rounded-2xl bg-surface-elevated border border-border hover:border-primary/30 transition-colors"
             >
-              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <card.icon size={24} className="text-primary" />
+              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                <item.icon size={20} className="text-primary" />
               </div>
-              <p className="text-sm text-muted-foreground font-medium mb-2">{card.role}</p>
-              <div className="mb-3">
-                <span className="text-3xl font-extrabold text-primary">{card.income}</span>
-                <span className="text-muted-foreground text-sm">{card.period}</span>
-              </div>
-              <p className="text-sm text-muted-foreground">{card.desc}</p>
+              <h3 className="font-semibold text-foreground mb-2">{item.title}</h3>
+              <p className="text-sm text-muted-foreground">{item.desc}</p>
             </div>
           ))}
         </div>

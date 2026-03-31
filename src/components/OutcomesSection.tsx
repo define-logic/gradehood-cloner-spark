@@ -3,18 +3,18 @@ import { Eye, Compass, Rocket } from "lucide-react";
 const outcomes = [
   {
     icon: Eye,
-    title: "Understand AI Automation Opportunities",
-    desc: "See exactly how people are building workflows and earning through freelancing right now.",
+    title: "Where AI Services Are in Demand",
+    desc: "Understand which AI-powered services businesses are actively paying for right now.",
   },
   {
     icon: Compass,
-    title: "Choose Your First Automation Use-Case",
-    desc: "Know which workflow to build first based on your skills and situation.",
+    title: "How Freelancers Use AI to Deliver Faster",
+    desc: "See how AI tools help freelancers work more efficiently and take on more clients.",
   },
   {
     icon: Rocket,
-    title: "Start Building Immediately",
-    desc: "Leave with a clear execution plan and tools to build your first workflow today.",
+    title: "How to Start Offering AI Freelance Services",
+    desc: "Get a clear starting point to begin offering AI-powered services as a freelancer.",
   },
 ];
 
@@ -22,12 +22,12 @@ const OutcomesSection = () => {
   return (
     <section className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <p className="text-primary text-sm font-medium text-center mb-3">After The Session</p>
+        <p className="text-primary text-sm font-medium text-center mb-3">Workshop Outcome</p>
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
           What You'll Be Able to Do After This Session
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          Walk away with real-use case execution clarity — not vague motivation.
+          Walk away with clarity on real AI freelancing opportunities — not vague motivation.
         </p>
 
         <div className="grid sm:grid-cols-3 gap-6">

@@ -2,8 +2,9 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import BonusStripSection from "@/components/BonusStripSection";
 import TrustRow from "@/components/TrustRow";
-import IncomeCardsSection from "@/components/IncomeCardsSection";
 import WhatYouLearnSection from "@/components/WhatYouLearnSection";
+import IncomeCardsSection from "@/components/IncomeCardsSection";
+import WhatMakesDifferentSection from "@/components/WhatMakesDifferentSection";
 import WhoIsItForSection from "@/components/WhoIsItForSection";
 import OutcomesSection from "@/components/OutcomesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
@@ -20,8 +21,9 @@ const Index = () => {
       <HeroSection />
       <BonusStripSection />
       <TrustRow />
-      <IncomeCardsSection />
       <WhatYouLearnSection />
+      <IncomeCardsSection />
+      <WhatMakesDifferentSection />
       <WhoIsItForSection />
       <OutcomesSection />
       <HowItWorksSection />

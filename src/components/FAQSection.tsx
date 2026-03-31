@@ -12,23 +12,23 @@ const faqs = [
   },
   {
     q: "Do I need any technical or coding skills?",
-    a: "Not at all. This workshop is designed for complete beginners. No coding, no prior AI experience needed.",
+    a: "Not at all. This workshop is designed for beginners. No coding or prior AI experience needed.",
   },
   {
     q: "What will I actually learn?",
-    a: "You'll learn how to use AI tools to automate tasks, build simple workflows step-by-step, and explore freelancing use-cases — all with live demos.",
+    a: "You'll learn how businesses use AI, what freelance opportunities exist around AI tools, and how you can start offering AI-powered services — with real examples.",
   },
   {
     q: "Is this a full course?",
-    a: "No — this is a free live practical session. At the end, you'll have the option to join our full program if you want to go deeper.",
+    a: "No — this is a free live workshop session. At the end, you'll have the option to join our full program if you want to go deeper.",
   },
   {
-    q: "What is the AI Income Starter Kit?",
-    a: "It's a free bonus delivered instantly after registration — includes AI automation ideas (India-focused), recommended tools, and a step-by-step beginner roadmap.",
+    q: "Who is this workshop for?",
+    a: "Students who want to start freelancing, freelancers looking to add AI services, and professionals exploring AI-powered side income.",
   },
   {
     q: "How long is the session?",
-    a: "Approximately 60–90 minutes including live Q&A and workflow demos.",
+    a: "Approximately 60–90 minutes including live Q&A and real examples.",
   },
 ];
 

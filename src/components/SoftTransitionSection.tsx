@@ -12,7 +12,7 @@ const SoftTransitionSection = () => {
             Want to Go Deeper?
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            At the end of the workshop, you'll get an opportunity to join our full AI Automation Accelerator program — where we help you build real automation systems, land freelancing clients, and start earning.
+            At the end of the workshop, you'll get an opportunity to join our full AI Freelancing Accelerator program — where we help you build real AI-powered services, find clients, and start earning consistently.
           </p>
           <p className="text-xs text-muted-foreground mt-4">
             No pressure — the workshop is 100% valuable on its own.

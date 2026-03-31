@@ -1,25 +1,30 @@
-import { Zap, Layers, Briefcase, Play } from "lucide-react";
+import { Bot, Workflow, BarChart3, PenTool, Search } from "lucide-react";
 
 const items = [
   {
-    icon: Zap,
-    title: "Automate Repetitive Tasks with AI",
-    desc: "Learn how to use AI tools to eliminate boring, time-consuming work instantly.",
+    icon: Bot,
+    title: "How Businesses Use AI to Automate Processes",
+    desc: "See how companies are using AI to handle repetitive tasks and streamline operations.",
   },
   {
-    icon: Layers,
-    title: "Build Simple Automation Workflows",
-    desc: "Step-by-step walkthrough of building real workflows you can use right away.",
+    icon: Workflow,
+    title: "How Freelancers Deliver Services Faster with AI",
+    desc: "Learn how freelancers are using AI tools to work smarter and deliver more value to clients.",
   },
   {
-    icon: Briefcase,
-    title: "Freelancing & Side Income Use-Cases",
-    desc: "See how these workflows translate into real freelancing opportunities and side income.",
+    icon: BarChart3,
+    title: "AI for Business Data Analysis & Insights",
+    desc: "Understand how to use AI to analyze data, generate reports, and provide actionable insights.",
   },
   {
-    icon: Play,
-    title: "Real Examples of AI Automation in Action",
-    desc: "Live demos of automation systems working — not slides, not theory.",
+    icon: PenTool,
+    title: "Creating Business Content Using AI Tools",
+    desc: "Learn how to produce professional content — from copy to visuals — using AI efficiently.",
+  },
+  {
+    icon: Search,
+    title: "Identifying Freelance Opportunities with AI",
+    desc: "Discover where AI creates the most value and how to position yourself to capture those opportunities.",
   },
 ];
 
@@ -29,13 +34,13 @@ const WhatYouLearnSection = () => {
       <div className="max-w-5xl mx-auto">
         <p className="text-primary text-sm font-medium text-center mb-3">Session Breakdown</p>
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-          What You'll Learn in This Session
+          What You'll Learn in This Workshop
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          A hands-on, practical session focused on building real automation workflows — not generic AI theory.
+          A practical session focused on how AI is used in real business contexts — and how you can offer these skills as freelance services.
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((item) => (
             <div
               key={item.title}
