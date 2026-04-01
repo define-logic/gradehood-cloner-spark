@@ -24,7 +24,10 @@ const Index = () => {
       <HeroSection />
       <BonusStripSection />
       <TrustRow />
+      <BootcampLearnSection />
       <WhatYouLearnSection />
+      <AIToolsSection />
+      <FreelanceServicesSection />
       <IncomeCardsSection />
       <WhatMakesDifferentSection />
       <WhoIsItForSection />

@@ -21,7 +21,7 @@ const WhoIsItForSection = () => {
           Whether you're just starting out or already working — if you want to earn through freelancing using AI, this workshop is for you.
         </p>
 
-        <div className="grid sm:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {audiences.map((a) => (
             <div
               key={a.label}

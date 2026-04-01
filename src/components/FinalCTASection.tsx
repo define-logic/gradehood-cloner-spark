@@ -8,10 +8,10 @@ const FinalCTASection = () => {
       <div className="max-w-2xl mx-auto text-center">
         <div className="p-10 rounded-2xl border border-primary/20 bg-primary/5 glow-green">
           <h2 className="text-3xl sm:text-4xl font-bold mb-3 text-foreground">
-            Reserve Your Free Seat Now
+            Reserve Your Free Seat For The AI Income Bootcamp
           </h2>
           <p className="text-muted-foreground mb-4 max-w-lg mx-auto">
-            Learn how AI can help you start earning through freelancing — join the free workshop.
+            Learn how beginners are starting to earn using AI tools and automation workflows.
           </p>
           <div className="flex items-center justify-center gap-2 text-sm text-primary mb-6">
             <Users size={16} />
