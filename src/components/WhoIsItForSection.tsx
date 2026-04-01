@@ -1,9 +1,12 @@
 import { GraduationCap, Briefcase, UserCheck } from "lucide-react";
 
+import { Sparkles } from "lucide-react";
+
 const audiences = [
-  { icon: GraduationCap, label: "Students", desc: "Who want to start freelancing and earn while studying" },
+  { icon: GraduationCap, label: "College Students", desc: "Who want to start freelancing and earn while studying" },
+  { icon: Sparkles, label: "Complete Beginners", desc: "No coding background needed — start from zero" },
   { icon: Briefcase, label: "Freelancers", desc: "Looking to upgrade their services with AI tools" },
-  { icon: UserCheck, label: "Working Professionals", desc: "Exploring AI-powered side income opportunities" },
+  { icon: UserCheck, label: "Anyone Interested in AI Income", desc: "Curious about earning using AI tools and automation" },
 ];
 
 const WhoIsItForSection = () => {
