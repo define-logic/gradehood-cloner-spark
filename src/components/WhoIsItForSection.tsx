@@ -15,7 +15,7 @@ const WhoIsItForSection = () => {
       <div className="max-w-5xl mx-auto text-center">
         <p className="text-primary text-sm font-medium mb-3">Perfect For You</p>
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-          Who Should Attend
+          This Bootcamp Is Perfect For
         </h2>
         <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">
           Whether you're just starting out or already working — if you want to earn through freelancing using AI, this workshop is for you.
