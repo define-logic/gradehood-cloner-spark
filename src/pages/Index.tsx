@@ -3,9 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import BonusStripSection from "@/components/BonusStripSection";
 import TrustRow from "@/components/TrustRow";
 import BootcampLearnSection from "@/components/BootcampLearnSection";
-import WhatYouLearnSection from "@/components/WhatYouLearnSection";
 import AIToolsSection from "@/components/AIToolsSection";
-import IncomeCardsSection from "@/components/IncomeCardsSection";
 import FreelanceServicesSection from "@/components/FreelanceServicesSection";
 import WhatMakesDifferentSection from "@/components/WhatMakesDifferentSection";
 import WhoIsItForSection from "@/components/WhoIsItForSection";
@@ -30,10 +28,8 @@ const Index = () => {
       <BonusStripSection />
       <TrustRow />
       <BootcampLearnSection />
-      <WhatYouLearnSection />
       <AIToolsSection />
       <FreelanceServicesSection />
-      <IncomeCardsSection />
       <WhatMakesDifferentSection />
       <WhoIsItForSection />
       <OutcomesSection />
