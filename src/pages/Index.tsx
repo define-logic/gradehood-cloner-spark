@@ -13,6 +13,11 @@ import OutcomesSection from "@/components/OutcomesSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import SoftTransitionSection from "@/components/SoftTransitionSection";
+import BootcampInsideSection from "@/components/BootcampInsideSection";
+import AIWorkflowDiagram from "@/components/AIWorkflowDiagram";
+import MarketplaceProofSection from "@/components/MarketplaceProofSection";
+import WhyAttendSection from "@/components/WhyAttendSection";
+import LimitedSeatsSection from "@/components/LimitedSeatsSection";
 import FinalCTASection from "@/components/FinalCTASection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
@@ -35,6 +40,11 @@ const Index = () => {
       <HowItWorksSection />
       <TestimonialsSection />
       <SoftTransitionSection />
+      <BootcampInsideSection />
+      <AIWorkflowDiagram />
+      <MarketplaceProofSection />
+      <WhyAttendSection />
+      <LimitedSeatsSection />
       <FinalCTASection />
       <FAQSection />
       <Footer />
