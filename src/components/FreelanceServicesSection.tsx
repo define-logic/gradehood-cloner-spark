@@ -1,28 +1,32 @@
-import { MessageCircle, FileText, Target, RefreshCw } from "lucide-react";
+import { Workflow, MessageCircle, FileText, Target } from "lucide-react";
 
 const services = [
   {
-    icon: MessageCircle,
-    title: "AI Chatbot Setup",
-    desc: "Businesses pay freelancers to create AI chatbots for customer support and lead generation.",
+    icon: Workflow,
+    title: "AI Automation Setup",
+    desc: "Businesses hire freelancers to create automation workflows using AI tools.",
+    earnings: "₹8,000 – ₹40,000 per project",
     tag: "High Demand",
   },
   {
+    icon: MessageCircle,
+    title: "AI Chatbot Implementation",
+    desc: "Companies want AI chatbots on websites and WhatsApp for customer support and lead capture.",
+    earnings: "₹10,000 – ₹50,000 per project",
+    tag: "Lucrative",
+  },
+  {
     icon: FileText,
-    title: "AI Content Automation",
-    desc: "Automate blog posts, product descriptions, and social media content using AI tools.",
+    title: "AI Content Automation Systems",
+    desc: "Businesses automate blog writing, product descriptions, and marketing content using AI tools.",
+    earnings: "₹5,000 – ₹25,000 per setup",
     tag: "Popular",
   },
   {
     icon: Target,
-    title: "AI Lead Generation Systems",
-    desc: "Build automated systems that collect and qualify leads for businesses.",
-    tag: "Lucrative",
-  },
-  {
-    icon: RefreshCw,
-    title: "AI Workflow Automation",
-    desc: "Automate repetitive business tasks like emails, reporting, and data entry.",
+    title: "AI Lead Generation Workflows",
+    desc: "Build automated systems that capture and organize leads for businesses.",
+    earnings: "₹7,000 – ₹35,000 per project",
     tag: "In Demand",
   },
 ];
@@ -31,12 +35,12 @@ const FreelanceServicesSection = () => {
   return (
     <section className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <p className="text-primary text-sm font-medium text-center mb-3">Real Opportunities</p>
+        <p className="text-primary text-sm font-medium text-center mb-3">Proof of Opportunity</p>
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-          Real AI Freelance Services Businesses Pay For
+          AI Freelancing Is Already a Real Opportunity
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          These are actual services freelancers are delivering to businesses using AI tools right now.
+          Thousands of freelancers are already offering AI automation and AI-powered services to businesses worldwide.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6">
@@ -54,7 +58,10 @@ const FreelanceServicesSection = () => {
                 <service.icon size={24} className="text-primary" />
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">{service.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{service.desc}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-3">{service.desc}</p>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-primary/5 border border-primary/10">
+                <span className="text-xs font-medium text-primary">💰 {service.earnings}</span>
+              </div>
             </div>
           ))}
         </div>
