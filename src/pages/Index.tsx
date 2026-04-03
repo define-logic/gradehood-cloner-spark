@@ -25,6 +25,7 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <HeroSection />
+      <a href="/thankyou">Test Thank You Page</a>
       <BonusStripSection />
       <TrustRow />
       <BootcampLearnSection />
