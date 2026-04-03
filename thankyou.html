@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>You're Registered!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+font-family: Arial;
+background:#f6f7fb;
+text-align:center;
+padding:80px;
+}
+
+.container{
+background:white;
+padding:40px;
+max-width:600px;
+margin:auto;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+button{
+display:block;
+width:100%;
+margin-top:20px;
+padding:16px;
+border:none;
+border-radius:8px;
+font-size:18px;
+cursor:pointer;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.share{
+background:#333;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎉 Seat Reserved!</h1>
+
+<p>You have successfully registered for the AI Freelancing Bootcamp.</p>
+
+<p>Step 1: Join the WhatsApp group to receive updates.</p>
+
+<button class="whatsapp" onclick="joinGroup()">Join WhatsApp Group</button>
+
+<p style="margin-top:30px;">Step 2: Invite your friends interested in AI freelancing.</p>
+
+<button class="share" onclick="share()">Invite Friends</button>
+
+</div>
+
+<script>
+
+function joinGroup(){
+window.location.href="https://chat.whatsapp.com/CknT1UBey553dlclVjkddD";
+}
+
+function share(){
+
+let text = "I'm joining a free AI Freelancing Bootcamp where they will show how to earn using AI tools.\n\nRegister here:\nhttps://ai-bootcamp.gradehood.com/";
+
+let url = "https://wa.me/?text=" + encodeURIComponent(text);
+
+window.open(url);
+
+}
+
+</script>
+
+</body>
+</html>
