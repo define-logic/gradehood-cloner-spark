@@ -1,4 +1,5 @@
-import React from "react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function ThankYou() {
 
@@ -6,75 +7,112 @@ const joinGroup = () => {
 window.location.href="https://chat.whatsapp.com/CknT1UBey553dlclVjkddD";
 }
 
-const share = () => {
+const shareBootcamp = () => {
 
-const text = "I'm joining a Free AI Freelancing Bootcamp. You can register here: https://ai-bootcamp.gradehood.com/";
+const text = `I just reserved my seat for a Free AI Freelancing Bootcamp where they show how to earn using AI tools.
+
+You can register here:
+https://ai-bootcamp.gradehood.com`;
 
 window.open(`https://wa.me/?text=${encodeURIComponent(text)}`);
 }
 
 return (
 
-<div style={{
-fontFamily:"Arial",
-textAlign:"center",
-padding:"80px",
-background:"#f6f7fb",
-minHeight:"100vh"
-}}>
+<div className="min-h-screen bg-gradient-to-b from-white to-slate-100 flex items-center justify-center px-6">
 
-<div style={{
-background:"white",
-padding:"40px",
-maxWidth:"600px",
-margin:"auto",
-borderRadius:"12px",
-boxShadow:"0 10px 30px rgba(0,0,0,0.1)"
-}}>
+<div className="max-w-3xl w-full space-y-8">
 
-<h1>🎉 Seat Reserved!</h1>
+<div className="text-center space-y-4">
 
-<p>You have successfully registered for the AI Freelancing Bootcamp.</p>
+<h1 className="text-4xl font-bold text-gray-900">
+🎉 Seat Reserved Successfully
+</h1>
 
-<p><b>Step 1:</b> Join the WhatsApp group to receive updates.</p>
-
-<button
-onClick={joinGroup}
-style={{
-background:"#25D366",
-color:"white",
-border:"none",
-padding:"16px 24px",
-fontSize:"18px",
-borderRadius:"8px",
-cursor:"pointer",
-marginTop:"20px"
-}}
->
-Join WhatsApp Group
-</button>
-
-<p style={{marginTop:"30px"}}>
-<b>Step 2:</b> Invite your friends interested in AI freelancing.
+<p className="text-lg text-gray-600">
+You are now registered for the <b>Gradehood AI Freelancing Bootcamp</b>.
 </p>
 
-<button
-onClick={share}
-style={{
-background:"#333",
-color:"white",
-border:"none",
-padding:"16px 24px",
-fontSize:"18px",
-borderRadius:"8px",
-cursor:"pointer",
-marginTop:"10px"
-}}
+</div>
+
+<Card className="shadow-lg border-0">
+
+<CardContent className="p-8 space-y-6">
+
+<div className="space-y-3">
+
+<h2 className="text-xl font-semibold">
+Step 1: Join the WhatsApp Group
+</h2>
+
+<p className="text-gray-600">
+All important updates, session link and resources will be shared in the group.
+</p>
+
+<Button
+onClick={joinGroup}
+className="bg-green-600 hover:bg-green-700 text-white text-lg px-6 py-6 rounded-xl"
 >
-Invite Friends
-</button>
+
+Join WhatsApp Group
+
+</Button>
+
+<p className="text-sm text-gray-500">
+
+⚠ Important: Bootcamp access link will only be shared inside the WhatsApp group.
+
+</p>
 
 </div>
+
+</CardContent>
+
+</Card>
+
+<Card className="shadow-lg border-0">
+
+<CardContent className="p-8 space-y-4">
+
+<h2 className="text-xl font-semibold">
+
+Step 2: Invite Your Friends
+
+</h2>
+
+<p className="text-gray-600">
+
+Know someone interested in freelancing or AI? Invite them to join the bootcamp.
+
+</p>
+
+<Button
+onClick={shareBootcamp}
+className="bg-black text-white hover:bg-gray-800 px-6 py-6 text-lg rounded-xl"
+>
+
+Share with Friends
+
+</Button>
+
+</CardContent>
+
+</Card>
+
+<div className="text-center text-sm text-gray-500">
+
+<p>
+
+Gradehood Bootcamp helps students learn practical AI freelancing skills
+and start earning online.
+
+</p>
+
 </div>
+
+</div>
+
+</div>
+
 );
 }
