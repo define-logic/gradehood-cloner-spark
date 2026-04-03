@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function ThankYou() {
 
 const joinGroup = () => {
-window.location.href="https://chat.whatsapp.com/YOURGROUPLINK";
+window.location.href="https://chat.whatsapp.com/CknT1UBey553dlclVjkddD";
 }
 
 const shareBootcamp = () => {
